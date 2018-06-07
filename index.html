@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+ 
+</head>
+
+<body>
+
+    <h1>CrystalsCollector</h1>
+
+    <div class="paragraph">
+
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>There are four crystals below. By clicking on one you will add a specific amount of points to your total score.</p>
+
+        <p>You win the game by matching you total score to the random number, you lose the game if your total score goes above
+            the random number</p>
+
+        <p>The value of each crystal is hidden until you click on it</p>
+
+        <p>Each time when the game starts the values of the crystals change</p>
+
+    </div>
+
+<div class="userScore">
+    <p class="randomNumber">0</p>
+</div>
+
+<div class="winsLosses">
+    <p class="wins">Wins: 0</p>
+    <p class="losses">Losses: 0</p>
+</div>
+
+<img class="images" id="blue" src="assets/images/bluecrystals.jpg">
+<img class="images" id="red" src="assets/images/redcrystals.jpeg">
+<img class="images" id="pink" src="assets/images/pinkcrystals.jpg">
+<img class="images" id="green" src="assets/images/greencrystals.jpeg">
+
+<div>
+    <p id="scoreDiv">Your total score is: </p>
+</div>
+
+<div id="score">
+    <p id="scoreCard">0</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

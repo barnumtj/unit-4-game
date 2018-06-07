@@ -1,0 +1,74 @@
+h1 {
+    background-color: orange;
+    font: white;
+    width: 250px;
+    padding: 20px;  
+}
+
+.paragraph {
+    width: 500px;
+    line-height: 25px;
+    background-color: tan;
+    color: green;
+}
+
+.userScore {
+    width: 275px;
+    height: 125px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.randomNumber {
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    top: -37px;
+}
+.winsLosses {
+    background-color: lightblue;
+    width: 100px;
+    height: 125px;
+    float: left;
+    margin-left: 20px;
+}
+
+.wins {
+    text-align: center;
+}
+
+.losses {
+    text-align: center;
+}
+
+.images {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 136px;
+    left: -405px;
+    margin-left: 10px;
+}
+
+#scoreDiv {
+    width: 300px;
+    background-color: teal;
+    position: relative;
+    top: 125px;
+}
+
+#score {
+    width: 300px;
+    height: 75px;
+    background-color: teal;
+    position: relative;
+    top: 86px;
+    
+}
+
+#scoreCard {
+    font: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
